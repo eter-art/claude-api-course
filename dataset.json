@@ -3,9 +3,9 @@
     "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens only, must start and end with letter or number)"
   },
   {
-    "task": "Write a regular expression to extract AWS IAM role ARNs from a text document. ARNs follow the format: arn:aws:iam::account-id:role/role-name"
+    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to a specific S3 bucket and its objects"
   },
   {
-    "task": "Create a JSON object that represents an AWS CloudFormation parameter definition for an EC2 instance type with default value 't2.micro', allowing only specific instance types (t2.micro, t2.small, t3.micro)"
+    "task": "Write a regular expression that matches valid AWS ARN (Amazon Resource Name) formats for EC2 instances"
   }
 ]
