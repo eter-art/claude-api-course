@@ -1,14 +1,18 @@
 [
   {
-    "task": "Parse an AWS S3 bucket name from a full S3 URI (s3://bucket-name/key/path) and extract just the bucket name",
-    "format": "regex"
-  },
-  {
-    "task": "Create a JSON configuration object for an AWS Lambda function that includes runtime, handler, timeout, and memory allocation settings",
-    "format": "json"
-  },
-  {
-    "task": "Write a Python function that takes an AWS CloudWatch log message and extracts the timestamp in ISO 8601 format",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "70 kg",
+      "goal": "Marathon training - high-endurance day with 3000+ calorie intake and carbohydrate loading",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories with emphasis on carbohydrates (55-65% of total calories)",
+      "Includes hydration strategy with specific fluid intake recommendations throughout the day",
+      "Provides 4-5 compact meals/snacks with timing suitable for marathon training",
+      "All meals are realistic, single-athlete portions and can be prepared/consumed within one day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration strategy throughout the day"
   }
 ]
